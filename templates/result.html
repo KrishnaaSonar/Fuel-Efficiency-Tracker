@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Fuel Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>📊 Your Fuel Report</h1>
+        <ul class="results">
+            <li><strong>Fuel Efficiency:</strong> {{ efficiency }} km/l</li>
+            <li><strong>Fuel Consumption:</strong> {{ consumption }} L/100km</li>
+            <li><strong>Cost per km:</strong> ₹{{ cost_per_km }}</li>
+        </ul>
+        <a href="/" class="back-link">← Calculate Again</a>
+    </div>
+</body>
+</html>

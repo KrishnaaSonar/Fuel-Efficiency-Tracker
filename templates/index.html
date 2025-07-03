@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fuel Efficiency Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>⛽ FUEL EFFICIENCY TRACKER</h1>
+        <form action="/result" method="POST">
+            <label>Distance Traveled (km)</label>
+            <input type="number" name="distance" step="0.1" required>
+
+            <label>Fuel Used (liters)</label>
+            <input type="number" name="fuel" step="0.1" required>
+
+            <label>Fuel Price (₹/liter)</label>
+            <input type="number" name="price" step="0.1" required>
+
+            <button type="submit">Calculate</button>
+        </form>
+    </div>
+</body>
+</html>
