@@ -30,3 +30,25 @@ git clone https://github.com/KrishnaaSonar/Fuel-Efficiency-Tracker.git
 cd Fuel-Efficiency-Tracker
 pip install -r requirements.txt
 python app.py
+```
+
+Open your browser and go to:
+http://127.0.0.1:5000
+
+## 🛠️ Technologies Used
+- Python + Flask (Backend)
+- HTML + CSS (Frontend)
+- Bootstrap (Responsive Design)
+
+## ✨ Example
+Let’s say:
+- Distance: 150 km
+- Fuel Used: 10 liters
+- Fuel Price: ₹105/liter
+- Results: Mileage: 15 KM/L | Cost per KM: ₹7.00
+
+## 📌 Why Use This?
+Perfect for:
+- Tracking daily fuel usage
+- Budget-conscious drivers
+- Learning Flask + web development basics
